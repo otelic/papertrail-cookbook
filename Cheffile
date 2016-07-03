@@ -3,4 +3,5 @@
 
 site 'http://community.opscode.com/api/v1'
 
-cookbook 'rsyslog'
+# cookbook 'rsyslog', '= 2.2.0'
+cookbook 'rsyslog', github: 'otelic/rsyslog', tag: "1.12.2"

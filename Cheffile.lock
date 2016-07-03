@@ -4,5 +4,4 @@ SITE
     rsyslog (1.5.0)
 
 DEPENDENCIES
-  rsyslog (>= 0)
-
+  rsyslog (= 1.12.2)
